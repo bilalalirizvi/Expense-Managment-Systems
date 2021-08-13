@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+:root{
+    --blue: rgb(0,72,255);
+    --orange: rgb(255,193,7);
+    --gray: rgb(229,229,229);
+}
+#loading {
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+.container-fluid{
+    height: 195px !important;
+    background-color: var(--blue);
+    color: white;
+    border-radius: 0px 0px 0px 100px;
+
+    position: relative;
+}
+#logout-logo{
+    width: auto;
+    height: 35px;
+}
+#name-logout-div{
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+#welcome{
+    text-shadow: 0px 0px 1px rgb(65, 64, 64);
+}
+
+.container-fluid h1{
+    font-weight: 400;
+    text-shadow: 0px 0px 10px rgb(149, 149, 149);
+}
+
+input{
+    box-shadow: none !important;
+}
+button{
+    box-shadow: none !important;
+    text-shadow: 0px 0px 1px rgb(65, 64, 64);
+    width: 180px !important;
+}
+.fa-arrow-left{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 25px;
+}
+table{
+    width: 100%;
+}
+.table{
+    overflow-x: scroll;
+}
+.table::-webkit-scrollbar{
+    width: 0px;
+}
+th{
+    border: 1px solid var(--blue);
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    height: 50px;
+    padding: 0px 40px;
+}
+td{
+    border: 1px solid var(--blue);
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+    height: 70px;
+    /* padding: 0px 40px; */
+}
+
+
+
+
+
+
+
+@media (max-width: 600px){
+    #welcome{
+        display: none;
+    }
+}

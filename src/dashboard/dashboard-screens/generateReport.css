@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+button{
+    box-shadow: none !important;
+    text-shadow: 0px 0px 1px rgb(65, 64, 64);
+}
+table{
+    width: 100%;
+}
+.table{
+    overflow-x: scroll;
+}
+.table::-webkit-scrollbar{
+    width: 0px;
+}
+th{
+    border: 1px solid rgb(216, 216, 216);
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    height: 50px;
+    padding: 0px 40px;
+}
+td{
+    border: 1px solid rgb(216, 216, 216);
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+    height: 70px;
+    /* padding: 0px 40px; */
+}

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+:root{
+    --blue: rgb(0,72,255);
+    --orange: rgb(255,193,7);
+}
+.container{
+    height: 100vh;
+}
+.container h1{
+    color: var(--blue);
+    font-weight: 400;
+}
+.container span{
+    color: var(--orange);
+}
+button:focus{
+    box-shadow: none !important;
+}
+
